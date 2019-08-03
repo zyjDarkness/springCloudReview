@@ -1,4 +1,4 @@
-server:
+﻿server:
   port: 8001
 spring:
   application:
@@ -13,7 +13,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: dept-provider-8001
+    instance-id: dept-provider-8001-internal
     prefer-ip-address: true
 info:
   msg.port: ${server.port}
