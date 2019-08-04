@@ -16,7 +16,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhsot:8080/eureka/
+      defaultZone: http://localhost:8080/eureka/
   instance:
     instance-id: dept-provider-8001
     prefer-ip-address: true
@@ -41,7 +41,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhsot:8080/eureka/
+      defaultZone: http://localhost:8080/eureka/
   instance:
     instance-id: dept-provider-8002
     prefer-ip-address: true
